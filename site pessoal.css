@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2c2c2c;
+}
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: inline-block;
+        
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    
+    
+}
+nav a:hover {
+    color: #000000; /* Muda a cor do texto */
+    font-size: 1.1em; /* Aumenta o tamanho do texto */
+    border-bottom: 2px solid #00ccff; /* Adiciona uma borda inferior */
+    background-color: #c7c7c7; /* Muda a cor de fundo */
+    padding: 2px 4px; /* Adiciona um pouco de padding */
+    border-radius: 7px; /* Arredonda os cantos */
+    
+}
+
+
+
+
+#cabecalho { 
+    width: 99.9%; 
+    height: 60px; 
+    border: 1px solid rgb(0, 0, 0); 
+    background: rgb(255, 255, 255); 
+    
+} 
+
+#cabecalho {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Adiciona um espaço ao redor do cabeçalho */
+    background-color: #00eeff;
+    text-align: center
+}
+
+
+

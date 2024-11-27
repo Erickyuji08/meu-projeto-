@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/t1/8167404-fundo-de-tecnologia-de-gradacao-simples-vetor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    position: relative;
+    background-color: rgba(76, 175, 80, 0.8); /* Fundo do cabeçalho semi-transparente */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: rgb(48, 48, 48); /* Fundo branco opaco ao passar o mouse */
+    color: rgb(255, 255, 255);
+}
